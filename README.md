@@ -3,7 +3,7 @@
 - Practice project for basic widget functionalities.
 
 ## Preview
-![MoonBook1](https://github.com/Jsh-Syn/Moon-Book/assets/157363386/349c12f7-ad20-4edc-b4a3-3e1b1642e14b)
+![MoonBook](https://github.com/Jsh-Syn/Moon-Book/assets/157363386/b36e149f-ea8b-473c-98d5-d68a2644fbfc)
 
 
 
