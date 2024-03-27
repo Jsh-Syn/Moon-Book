@@ -65,7 +65,7 @@ class LastPage extends StatelessWidget {
         height: 48,
         color: const Color.fromARGB(255, 170, 178, 208),
         onPressed: () {
-          Navigator.push(
+          Navigator.pop(
             context,
             MaterialPageRoute(
               builder: (context) => Homepage(),
