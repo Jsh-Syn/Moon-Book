@@ -1,9 +1,10 @@
 ## Moon Book
-- A very basic flutter project for booking to the moon.
+- A very basic flutter project for booking a ride to the moon.
 - Practice project for basic widget functionalities.
 
 ## Preview
-![MoonBook](https://github.com/Jsh-Syn/Moon-Book/assets/157363386/b36e149f-ea8b-473c-98d5-d68a2644fbfc)
+![MoonBook](https://github.com/Jsh-Syn/Moon-Book/assets/157363386/6ff9a082-c6f0-4970-8868-c97121e0bc58)
+
 
 
 
