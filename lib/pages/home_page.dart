@@ -13,7 +13,7 @@ class _HomepageState extends State<Homepage> {
   late double _deviceHeight, _deviceWidth;
   // declaration of variables to be used for transferring items.
   String _selectedStation = '';
-  String _selectedTrainNum = '';
+  String _selectedshipNum = '';
   String _selectedTravelType = '';
 
   @override
@@ -100,7 +100,7 @@ class _HomepageState extends State<Homepage> {
             width: _deviceWidth * 0.45,
             onChanged: (value) {
               setState(() {
-                _selectedTrainNum = value;
+                _selectedshipNum = value;
               });
             },
           ),
@@ -155,8 +155,8 @@ class _HomepageState extends State<Homepage> {
             context,
             MaterialPageRoute(
               builder: (context) => LastPage(
-                trainNum: _selectedTrainNum,
-                trainType: _selectedTravelType,
+                shipNum: _selectedshipNum,
+                shipType: _selectedTravelType,
                 station: _selectedStation,
               ),
             ),

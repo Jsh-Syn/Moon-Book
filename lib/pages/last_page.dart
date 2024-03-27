@@ -2,14 +2,14 @@ import 'package:flutter/material.dart';
 import 'package:flutter_course/pages/home_page.dart';
 
 class LastPage extends StatelessWidget {
-  final String trainNum;
-  final String trainType;
+  final String shipNum;
+  final String shipType;
   final String station;
 
   const LastPage({
     Key? key,
-    required this.trainNum,
-    required this.trainType,
+    required this.shipNum,
+    required this.shipType,
     required this.station,
   }) : super(key: key);
 
@@ -41,7 +41,7 @@ class LastPage extends StatelessWidget {
                 padding: const EdgeInsets.symmetric(horizontal: 20),
                 child: Text(
                   textAlign: TextAlign.center,
-                  'You are in Train $trainNum - $trainType Type headed to $station.',
+                  'You are in Ship $shipNum - $shipType Type headed to $station.',
                   style: const TextStyle(
                     color: Color.fromARGB(255, 243, 249, 255),
                     fontSize: 25,
